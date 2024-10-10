@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+        
+        HashMap<String, Double> foodcropPrices = new HashMap<>();
+
+        foodcropPrices.put("cassava", 1.5);
+        foodcropPrices.put("matooke", 0.8);
+        foodcropPrices.put("rice", 1.2);
+
+        double cassavaPrice = foodcropPrices.get("cassava");
+        System.out.println("Price of cassava: " + cassavaPrice);
+
+        boolean containsYams =foodcropPrices.containsKey("yams");
+        System.out.println("Does the HashMap contain yams? " + containsYams);
+    }
+}
