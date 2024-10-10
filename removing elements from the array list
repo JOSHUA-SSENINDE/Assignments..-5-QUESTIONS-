@@ -1,12 +1,15 @@
 import java.util.ArrayList;
 
-public class Main {
+public class ArrayListExample {
     public static void main(String[] args) {
-        ArrayList<String> foodcrops = new ArrayList<String>();
-        foodcrops.add("Cassava");
-        foodcrops.add("Matooke");
-        foodcrops.add("Rice");
+        
+        ArrayList<String> foodcrops = new ArrayList<>();
+        foodcrops.add("cassava");
+        foodcrops.add("matooke");
+        foodcrops.add("rice");
 
-        foodcrops.remove("Matooke");
+        foodcrops.remove(1); 
+
+        System.out.println(foodcrops);
     }
 }
