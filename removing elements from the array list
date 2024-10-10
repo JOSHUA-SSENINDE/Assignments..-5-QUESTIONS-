@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> foodcrops = new ArrayList<String>();
+        foodcrops.add("Cassava");
+        foodcrops.add("Matooke");
+        foodcrops.add("Rice");
+
+        foodcrops.remove("Matooke");
+    }
+}
