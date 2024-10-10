@@ -1,0 +1,15 @@
+import java.util.HashSet;
+
+public class HashSetExample {
+    public static void main(String[] args) {
+        
+        HashSet<String> foodcrops = new HashSet<>();
+
+        foodcrops.add("cassava");
+        foodcrops.add("matooke");
+        foodcrops.add("rice");
+        foodcrops.add("cassava"); 
+        
+        System.out.println(foodcrops);
+    }
+}
