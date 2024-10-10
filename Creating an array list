@@ -1,8 +1,14 @@
 import java.util.ArrayList;
 
-public class Main {
+public class ArrayListExample {
     public static void main(String[] args) {
-        // Create an ArrayList of strings
-        ArrayList<String> foodcrops = new ArrayList<String>();
+        
+        ArrayList<String> foodcrops = new ArrayList<>();
+        
+        foodcrops.add("cassava");
+        foodcrops.add("matooke");
+        foodcrops.add("rice");
+
+        System.out.println(foodcrops);
     }
 }
